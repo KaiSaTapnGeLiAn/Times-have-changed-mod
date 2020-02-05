@@ -1,0 +1,49 @@
+{
+	"type": "GenericSmelter",
+	"name": "Lithography", 
+	"description": "My lord, the food is big again, and the second industrial revolution has begun! Thanks to Tim Berners Lee and others",
+	"health": 250, 
+	"itemCapacity": 20, 
+	"outputItem": {
+		"item": "芯片",
+		"amount": 1
+	},
+	"size": 2, 
+	"hasPower": true, 
+	"hasItems": true, 
+	"craftTime": 0.03, 
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 5.0, 
+		"items": {
+			"items": [
+				{
+					"item": "晶圆",
+					"amount": 1
+				},
+				{
+					"item": "铁板",
+					"amount": 2
+				}
+			] 
+		}
+	},
+	"requirements": [
+		{
+			"item": "塑料",
+			"amount": 50
+		},
+		{
+			"item": "铁板",
+			"amount": 100
+		},
+		{
+			"item": "钢",
+			"amount": 10
+		}
+	],
+	"category": "crafting",
+	"research": "塑料厂",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

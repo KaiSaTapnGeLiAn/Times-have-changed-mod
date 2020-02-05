@@ -1,0 +1,45 @@
+{
+	"type": "GenericSmelter",
+	"name": "Iron plate compressor",
+	"description": "Compressing iron to get iron plates, compressors of the Caesar brand, so it costs a bit of iron, and it is cheaper.",
+	"health": 250,
+	"itemCapacity": 10,
+	"outputItem": {
+		"item": "铁板",
+		"amount": 2
+	},
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 5,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 3,
+		"items": {
+			"items": [
+				{
+					"item": "铁",
+					"amount": 5
+				}
+			]
+		}
+	},
+	"requirements": [
+		{
+			"item": "lead",
+			"amount": 50
+		},
+		{
+			"item": "copper",
+			"amount": 100
+		},
+		{
+			"item": "铁",
+			"amount": 30
+		}
+	],
+	"category": "crafting",
+	"research": "duo",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

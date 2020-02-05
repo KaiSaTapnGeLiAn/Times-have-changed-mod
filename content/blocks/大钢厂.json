@@ -1,0 +1,61 @@
+{
+	"type": "GenericSmelter",
+	"name": "Dagang",
+	"description": "Use a large amount of electricity and increase the striking speed by changing the hammer to tungsten, and then change the coal to coke with higher combustion efficiency to produce steel in large quantities.",
+	"health": 500,
+	"itemCapacity": 50,
+	"outputItem": {
+		"item": "钢",
+		"amount": 2
+	},
+	"size": 3,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 30,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 9,
+		"items": {
+			"items": [
+				{
+					"item": "铁",
+					"amount": 2
+				},
+				{
+					"item": "焦炭",
+					"amount": 4
+				}
+			]
+		}
+	},
+	"requirements": [
+		{
+			"item": "copper",
+			"amount": 100
+		},
+		{
+			"item": "lead",
+			"amount": 100
+		},
+		{
+			"item": "thorium",
+			"amount": 100
+		},
+		{
+			"item": "钨",
+			"amount": 10
+		},
+		{
+			"item": "铁板",
+			"amount": 50
+		},
+		{
+			"item": "钢",
+			"amount": 20
+		}
+	],
+	"category": "crafting",
+	"research": "钢厂",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

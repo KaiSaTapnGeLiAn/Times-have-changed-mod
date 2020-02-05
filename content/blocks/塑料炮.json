@@ -1,0 +1,40 @@
+{
+   "type": "ItemTurret",
+   "name": "Plastic cannon",
+   "description": "Launch plastic",
+   "health": 400,
+   "size": 2,
+   "targetAir": true,
+   "targetGround": true,
+   "rotatespeed": 50,
+   "cooldown": 2,
+   "recoil": 4,
+   "restitution": 20,
+   "shots": 5,
+   "inaccuracy": 4,
+   "maxAmmo": 60,
+   "reload": 0.1,
+   "range": 45,
+   "ammo": {
+      "塑料": {
+         "splashDamageRadius": 20,
+         "splashDamage": 5,
+         "speed": 20,
+         "damage": 30,
+         "hitSize": 4,
+         "reloadMultiplier": 0.5,
+         "bulletWidth": 4,
+         "bulletHeight": 2,
+         "lifetime": 2,
+         "ammoMultiplier": 4
+      }
+   },
+   "requirements": [
+      {
+         "item": "塑料",
+         "amount": 100
+      }
+   ],
+   "category": "turret",
+   "research": "salvo"
+}

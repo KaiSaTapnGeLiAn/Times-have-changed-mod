@@ -1,0 +1,49 @@
+{
+	"type": "GenericCrafter",
+	"name": "grinder",
+	"description": "Break lead and copper into sand..",
+	"outputItem": {
+		"item": "sand",
+		"amount": 6
+	},
+	"size": 2,
+	"itemCapacity": 60,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 15,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.5,
+		"items": {
+			"items": [
+				{
+					"item": "lead",
+					"amount": 3
+				}
+				{
+					"item": "copper",
+					"amount": 4
+				}
+			]
+		},
+	},
+	"requirements": [
+		{
+			"item": "copper",
+			"amount": 50
+		},
+		{
+			"item": "graphite",
+			"amount": 60
+		},
+		{
+			"item": "lead",
+			"amount": 120
+		},
+	],
+	"category": "crafting",
+	"research": "pyratite-mixer",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

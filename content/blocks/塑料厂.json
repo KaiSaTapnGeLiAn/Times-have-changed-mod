@@ -1,0 +1,45 @@
+{
+	"type": "GenericSmelter",
+	"name": "plastic factory",
+	"description": "Extraction of plastic from petroleum, Caesar's, a bit of gas",
+	"health": 250,
+	"itemCapacity": 15,
+	"outputItem": {
+		"item": "塑料",
+		"amount": 2
+	},
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 120,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 3,
+		"liquid": {
+			"liquid": "oil",
+			"amount": 0.25
+		}
+	},
+	"requirements": [
+		{
+			"item": "铁板",
+			"amount": 40
+		},
+		{
+			"item": "copper",
+			"amount": 200
+		},
+		{
+			"item": "lead",
+			"amount": 100
+		},
+		{
+			"item": "thorium",
+			"amount": 50
+		}
+	],
+	"category": "crafting",
+	"research": "铁板压缩机",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

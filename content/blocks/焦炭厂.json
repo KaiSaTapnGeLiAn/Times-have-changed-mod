@@ -1,0 +1,41 @@
+{
+	"type": "GenericSmelter",
+	"name": "Coke plant", 
+	"description": "Making coke from lead, copper and water", 
+	"health": 200, 
+	"itemCapacity": 20, 
+	"outputItem": {
+		"item": "焦炭",
+		"amount": 3
+	}, 
+	"size": 3, 
+	"hasPower": true, 
+	"hasItems": true, 
+	"craftTime": 60, 
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 9, 
+		"items": {
+			"items": [
+				{
+					"item": "copper",
+					"amount": 3
+				},
+				{
+					"item": "lead",
+					"amount": 3
+				}
+			] 
+		}
+	}, 
+	"requirements": [
+		{
+			"item": "铁板",
+			"amount": 100
+		}
+	], 
+	"category": "crafting", 
+	"research": "铁板压缩机", 
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

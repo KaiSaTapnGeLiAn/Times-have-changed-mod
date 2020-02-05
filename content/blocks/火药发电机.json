@@ -1,0 +1,31 @@
+{
+	"type": "ImpactReactor",
+	"name": "Gunpowder generator",
+	"description": "The boiling water generator is shavings, and the boiling water is used as a reference, but the gunpowder needs electricity.",
+	"size": 2,
+	"health": 50,
+	"liquidCapacity": 10,
+	"hasLiquids": true,
+	
+	"powerProduction": 14,
+	"consumes": {
+		"power": 1,
+		"liquid": {
+			"liquid": "water",
+			"amount": 6,
+			"booster": true
+		}
+	},
+	"requirements": [
+		{
+			"item": "火药",
+			"amount": 1
+		},
+		{
+			"item": "铁板",
+			"amount": 20
+		}
+	],
+	"category": "power",
+	"research": "duo"
+}

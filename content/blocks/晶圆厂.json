@@ -1,0 +1,49 @@
+{
+	"type": "GenericSmelter",
+	"name": "Fab", 
+	"description": "This is not a factory, but the gate of the new world", 
+	"health": 500, 
+	"itemCapacity": 20, 
+	"outputItem": {
+		"item": "晶圆",
+		"amount": 1
+	}, 
+	"size": 2, 
+	"hasPower": true, 
+	"hasItems": true, 
+	"craftTime": 0.33, 
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 5, 
+		"items": {
+			"items": [
+				{
+					"item": "silicon",
+					"amount": 3
+				},
+			    {
+					"item": "铁板",
+					"amount": 5
+				}
+			] 
+		}
+	}, 
+	"requirements": [
+		{
+			"item": "塑料",
+			"amount": 100
+		},
+		{
+			"item": "铁板",
+			"amount": 200
+		},
+		{
+			"item": "钢",
+			"amount": 10
+		}
+	], 
+	"category": "crafting", 
+	"research": "塑料厂", 
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

@@ -1,0 +1,45 @@
+{
+	"type": "GenericSmelter",
+	"name": "Steel mill", 
+	"description": "Melt iron, inject coal, beat repeatedly, and then cool to obtain steel", 
+	"health": 180, 
+	"itemCapacity": 20, 
+	"outputItem": {
+		"item": "钢",
+		"amount": 1
+	}, 
+	"size": 2, 
+	"hasPower": true, 
+	"hasItems": true, 
+	"craftTime": 240, 
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 4.0, 
+		"items": {
+			"items": [
+				{
+					"item": "铁",
+					"amount": 10
+				},
+				{
+					"item": "coal",
+					"amount": 5
+				}
+			] 
+		}
+	}, 
+	"requirements": [
+		{
+			"item": "铁板",
+			"amount": 50
+		},
+		{
+			"item": "塑料",
+			"amount": 100
+		}
+	], 
+	"category": "crafting", 
+	"research": "塑料厂", 
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

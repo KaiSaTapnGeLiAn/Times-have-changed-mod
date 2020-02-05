@@ -1,0 +1,39 @@
+{
+	"type": "ImpactReactor",
+	"name": "Steam engine",
+	"description": "My lord, times have changed. After Watt improved the steam engine, the world has changed dramatically! I look forward to the next change.",
+	"size": 3,
+	"health": 300,
+	"liquidCapacity": 50,
+	"hasLiquids": true,
+	
+	"powerProduction": 20,
+	"consumes": {
+		"power": 5,
+		"liquid": {
+			"liquid": "water",
+			"amount": 0.5,
+			"booster": true
+		}
+	}, 
+	"requirements": [
+		{
+			"item": "铁板",
+			"amount": 30
+		},
+		{
+			"item": "copper",
+			"amount": 100
+		},
+		{
+			"item": "lead",
+			"amount": 75
+		},
+		{
+			"item": "titanium",
+			"amount": 30
+		}
+	], 
+	"category": "power", 
+	"research": "duo" 
+}

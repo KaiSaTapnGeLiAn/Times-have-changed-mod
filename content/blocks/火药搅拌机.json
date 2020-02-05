@@ -1,0 +1,39 @@
+{
+	"type": "GenericSmelter",
+	"name": "Powder Mixer",
+	"description": "Stir sulfur and coal to get gunpowder",
+	"health": 100,
+	"itemCapacity": 10,
+	"outputItem": {
+		"item": "火药",
+		"amount": 1
+	},
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 2,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 5,
+		"items": {
+			"items": [
+				{
+					"item": "pyratite",
+					"amount": 1
+				},
+				{
+					"item": "coal",
+					"amount": 2
+				}
+			]
+		}
+	},
+	"requirements": [
+		{
+			"item": "copper",
+			"amount": 50
+		}
+	],
+	"category": "crafting",
+	"research": "duo"
+}

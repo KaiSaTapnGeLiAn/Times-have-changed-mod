@@ -1,0 +1,45 @@
+{
+	"type": "GenericSmelter",
+	"name": "Big Silicon Factory",
+	"description": "Mass production of silicon from coke and sand",
+	"health": 500,
+	"itemCapacity": 50,
+	"outputItem": {
+		"item": "silicon",
+		"amount": 10
+	},
+	"size": 3,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 5.0,
+		"items": {
+			"items": [
+				{
+					"item": "焦炭",
+					"amount": 1
+				},
+				{
+					"item": "sand",
+					"amount": 4
+				}
+			]
+		}
+	},
+	"requirements": [
+		{
+			"item": "铁板",
+			"amount": 50
+		},
+		{
+			"item": "钢",
+			"amount": 20
+		}
+	],
+	"category": "crafting",
+	"research": "duo",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
