@@ -1,6 +1,6 @@
 {
 	"type": "material",
-	"name": "火药",
-	"description": "中国的黑粉，好像会爆炸",
+	"name": "gunpowder",
+	"description": "Chinese black powder seems to explode",
 	"color": "#000000"
 }

@@ -1,6 +1,6 @@
 {
 	"type": "resource",
-	"name": "焦炭",
-	"description": "混合物，黑黑的，像烧焦的煤炭",
+	"name": "Coke",
+	"description": "Mixture, black, like burnt coal",
 	"color": "000000"
 }

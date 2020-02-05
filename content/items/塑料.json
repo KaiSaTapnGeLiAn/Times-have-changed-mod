@@ -1,6 +1,6 @@
 {
 	"type": "material",
-	"name": "塑料",
-	"description": "可以造竟车",
+	"name": "plastic",
+	"description": "Can build cars",
 	"color": "#54FF9F"
 }
