@@ -1,0 +1,21 @@
+{
+      "type":"LightBlock",
+      "name":"钨丝灯",//名字
+      "description": "大功率电灯",//介绍
+      "size":2,//占地边长支持1~9对应贴图1x1=32x32像素.
+      "health":180 ,//生命
+      "haspower":true,
+      "brightness":10.0 ,//亮度格式0.0
+      "radius":20,//范围
+      "consumes":{
+		"power":2.0//使用能量1:60格式1.0
+	},//工作消耗
+      "requirements": [
+		{"item": "钨丝", "amount":5 }
+		{"item": "铁", "amount":10 }
+		{"item": "铁板", "amount":10 }
+		{"item": "copper", "amount":5 }
+	],//建造消耗,第一个""之间写矿物,第二个:后写数量
+	"category": "power",
+    "research":"氦气收集器"//科技树前一项
+    }

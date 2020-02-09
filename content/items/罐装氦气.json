@@ -1,0 +1,6 @@
+{
+	"type": "resource"
+	"name": "罐装氦气"//矿物名称
+	"description": "罐装的氦气"//矿物描述
+	"color": "ffffff"//颜色查看rgb表,使用时如这样#000000那只要000000,每两位分别代表R G B.
+}

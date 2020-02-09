@@ -1,0 +1,11 @@
+{
+	"name": "氦气",//名字
+	"description": "一种气体",//介绍
+	"temperature":1 ,//温度
+    "viscosity":0.1 ,//粘度,影响速度水0.5石油1
+    "flammability":0.1 ,//可燃性
+    "explosiveness":0.1 ,//爆炸性
+    "heatCapacity":0.5 ,//比热容默认0.5
+    "effect": "melting",//接触这液体获得状态
+    "color": "ffffff"//颜色查看rgb表,使用时如这样#000000那只要000000,每两位分别代表R G B.
+}
