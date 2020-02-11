@@ -25,7 +25,7 @@
 		{ "item": "surge-alloy", "amount":50  }
 	],//建造消耗,第一个""之间写矿物,第二个:后写数量
 	"category": "crafting",//游戏界面分类,crafting是工厂分类
-	"research": "大钢厂",//科技树前一物品
+	"research": "钢墙",//科技树前一物品
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5
 }

@@ -1,7 +1,7 @@
 {
 	"type": "GenericCrafter",
 	"name": "小型抽水机", //名字
-	"description": "浓缩才是精华，钢钻头，效率杠杠的，至于提水，用钨丝把钢水桶拉上来，效率高高哒，就是耗电",
+	"description": "浓缩才是精华",
 	"size": 1, //占地边长支持1~9对应贴图1x1=32x32像素.
 	"hasPower": true, //是否需要能量true为需要,false为不需要.
 	"hasLiquids": false, //是否需要液体true为需要,false为不需要.
@@ -14,17 +14,11 @@
 	"liquidCapacity": 20,
 	"outputLiquid": {
 		"liquid": "water",
-		"amount": 14.5
+		"amount": 4.3
 	}, //输出液体
 	"requirements": [
-		{
-			"item": "钢",
-			"amount": 30
-		}
-		{
-			"item": "钨丝",
-			"amount": 30
-		}
+		{"item": "copper","amount": 30}
+		{"item": "钨丝","amount": 30}
 	], //建造消耗,第一个""之间写矿物,第二个:后写数量.
 	"category": "crafting", //游戏界面分类
 	"research": "钢厂", //科技树前一项

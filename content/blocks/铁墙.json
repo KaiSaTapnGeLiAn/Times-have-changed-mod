@@ -1,0 +1,12 @@
+{
+	"name": "铁墙",//名字
+	"description": "铁做的墙",//介绍
+	"type": "Wall",
+	"health": 2500,//生命
+	"size": 2,//占地边长支持1~9对应贴图1x1=32x32像素.
+	"requirements": [
+		{ "item": "铁", "amount": 24}
+	],//建造消耗,第一个""之间写矿物,第二个:后写数量
+	"category": "defense",
+	"research": "铁板压缩机"//科技树前一项
+}

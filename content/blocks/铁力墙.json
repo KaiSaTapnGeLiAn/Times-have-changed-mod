@@ -1,0 +1,28 @@
+{
+	"name": "铁力墙",//名字
+	"description": "在护盾里塞点铁板，更硬了",//介绍
+	"type": "ForceProjector",
+	"health": 500,//生命
+	"size": 3,//占地边长支持1~9对应贴图1x1=32x32像素.
+	"radius":101.7,//范围默认101.7
+	"phaseUseTime":21000 //使用一个加速物品时间默认350比例60:1
+	"phaseRadiusBoost":80 //加速范围百分比默认80
+	"basePowerDraw":0.2 //基础能量消耗默认0.2
+	"breakage":888,//吸收上限默认550
+	"cooldownNormal":2,//冷却指数默认1.75
+	"cooldownBrokenBase":0.5,//过载冷却指数默认0.35
+	"consumes":{
+		"power": 5.0,//基础能量比例1:60格式1.0
+		"items":{
+			"items":[
+				{"item":"液氦","amount":2}
+			],
+			"booster":true
+		}//加速物品第一个""之间写物品,第二个:后数量
+	},
+	"requirements": [
+	    { "item": "铁板", "amount": 50 }
+	],//建造消耗,第一个""之间写矿物,第二个:后写数量
+	"category": "effect",
+	"research":"force-projector"//科技树前一项默认原版力强
+}

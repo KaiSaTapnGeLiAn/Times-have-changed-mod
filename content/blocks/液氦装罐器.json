@@ -19,7 +19,7 @@
 		}
 		"liquid": {
 			"liquid": "氦气",
-			"amount": 5}
+			"amount": 0.02}
 	},//生产所消耗的东西.
 	"requirements": [
 		{ "item": "铁板", "amount":300  }

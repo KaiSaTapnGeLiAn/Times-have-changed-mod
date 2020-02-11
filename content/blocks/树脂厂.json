@@ -1,0 +1,25 @@
+{
+	"type": "GenericCrafter",
+	"name": "树脂冶炼厂",
+	"description": "融化塑料制成树脂",
+	"liquidCapacity": 50,
+	"outputLiquid": {"liquid": "树脂", "amount": 5.0},
+	"size": 1,
+	"hasPower": true,
+	"hasLiquids": true,
+	"craftTime": 35,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 2.0,
+		"item": "plastanium"
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 120 },
+		{ "item": "thorium", "amount": 40 },
+		{ "item": "silicon", "amount": 40}
+		{ "item": "silicon", "amount": 40}
+	],
+	"category": "crafting",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
