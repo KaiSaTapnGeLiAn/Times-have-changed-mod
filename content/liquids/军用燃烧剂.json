@@ -1,0 +1,11 @@
+{
+	"name": "军用燃烧剂",//名字
+	"description": "易燃",//介绍
+	"temperature": 10,//温度
+    "viscosity": 0.5,//粘度,影响速度水0.5石油1
+    "flammability": 800,//可燃性
+    "explosiveness": 10,//爆炸性
+    "heatCapacity": 0.5,//比热容默认0.5
+    "effect": "melting",//接触这液体获得状态
+    "color": "cd2626"//颜色查看rgb表,使用时如这样#000000那只要000000,每两位分别代表R G B.
+}

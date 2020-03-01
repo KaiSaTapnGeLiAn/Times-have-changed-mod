@@ -6,7 +6,7 @@
       "health":180 ,//生命
       "haspower":true,
       "brightness":10.0 ,//亮度格式0.0
-      "radius":20,//范围
+      "radius":100,//范围
       "consumes":{
 		"power":2.0//使用能量1:60格式1.0
 	},//工作消耗

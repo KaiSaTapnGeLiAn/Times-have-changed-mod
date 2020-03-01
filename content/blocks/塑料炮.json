@@ -14,7 +14,7 @@
    "inaccuracy": 4,
    "maxAmmo": 60,
    "reload": 0.1,
-   "range": 45,
+   "range": 200,
    "ammo": {
       "塑料": {
          "splashDamageRadius": 20,

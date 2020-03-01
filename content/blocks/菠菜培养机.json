@@ -1,0 +1,24 @@
+{
+	"type": "Separator",
+	"name": "菠菜培养机",//名字
+	"description": "种菠菜，要的水有点多",//介绍
+	"itemCapacity": 20,//物品容量
+	"size": 2,//占地边长支持1~9对应贴图1x1=32x32像素.
+	"craftTime":60,//工作时间60:1
+	"results": [
+				{ "item": "菠菜", "amount": 1 }
+		],//分离产物与物品一样
+	"consumes": {
+		"power":1.0,
+		"liquid": {
+			"liquid": "water",
+			"amount": 0.1
+		}//工作消耗液体以水为例
+	},//工作消耗
+  	"liquidCapacity": 20,//液体容量
+	"requirements": [
+		{ "item": "铁板", "amount": 50}
+	],
+	"category": "crafting",//游戏界面分类
+	"research": "绿宝石培养机"//科技树前一项
+}

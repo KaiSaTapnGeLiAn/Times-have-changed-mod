@@ -1,0 +1,24 @@
+{
+	"type": "Separator",
+	"name": "绿宝石培养机",//名字
+	"description": "水变成冰然后在上面放点绿色的微生物，就是绿宝石了",//介绍
+	"itemCapacity": 20,//物品容量
+	"size": 2,//占地边长支持1~9对应贴图1x1=32x32像素.
+	"craftTime":30,//工作时间60:1
+	"results": [
+				{ "item": "绿宝石", "amount": 2 }
+		],//分离产物与物品一样
+	"consumes": {
+		"power":1.0,
+		"liquid": {
+			"liquid": "water",
+			"amount": 0.075
+		}//工作消耗液体以水为例
+	},//工作消耗
+  	"liquidCapacity": 20,//液体容量
+	"requirements": [
+		{ "item": "铁板", "amount": 20}
+	],
+	"category": "crafting",//游戏界面分类
+	"research": "铁板压缩机"//科技树前一项
+}

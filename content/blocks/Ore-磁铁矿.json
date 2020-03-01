@@ -1,0 +1,6 @@
+{
+	"type": "OreBlock",
+	"itemDrop": "磁铁矿",//矿物名称,保存格式为 ore-矿物名字.json
+	"variants": 1,
+	"color":"292834"
+}

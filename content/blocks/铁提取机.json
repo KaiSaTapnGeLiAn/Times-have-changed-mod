@@ -1,0 +1,29 @@
+{
+	"type": "GenericSmelter"
+	"name": "铁提取机",//工厂名称
+	"description": "众所周知，菠菜里全是铁。",//工厂介绍
+	"health": 250,//生命
+	"itemCapacity": 10,//物品容量,要大于生产输出和消耗数量.
+	"outputItem": {"item": "铁","amount":2 },//输出物品,第一个""之间写矿物第二个:后面写数量.
+	"size": 2,//占地边长支持1~9对应贴图1x1=32x32像素.
+	"hasPower": true,//是否需要能量true为需要,false为不需要.
+	"hasItems": true,//是否需要物品true为需要,false为不需要.
+	"craftTime": 30,//工作时间,这里的是60:1
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 2,//使用能量,比例1:60
+		"items": {
+			"items": [
+				{ "item": "菠菜", "amount": 3 }
+			]//生产消耗矿物,第一个""之间写矿物第二个:后写数量.
+		}
+	},//生产所消耗的东西.
+	"requirements": [
+		{ "item": "copper", "amount": 50 }
+		{ "item": "lead", "amount": 50 }
+	],//建造消耗,第一个""之间写矿物,第二个:后写数量
+	"category": "crafting",//游戏界面分类,crafting是工厂分类
+	"research": "钢板压缩机",//科技树前一物品
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

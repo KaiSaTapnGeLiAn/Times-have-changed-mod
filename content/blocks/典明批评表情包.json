@@ -1,0 +1,12 @@
+{
+	"name": "典明批评表情包",//名字
+	"description": "这是个表情包",//介绍
+	"type": "Wall",
+	"health": 250,//生命
+	"size": 2,//占地边长支持1~9对应贴图1x1=32x32像素.
+	"requirements": [
+		{ "item": "copper", "amount": 1}
+	],//建造消耗,第一个""之间写矿物,第二个:后写数量
+	"category": "defense",
+	"research": "龙の注视表情包"//科技树前一项
+}

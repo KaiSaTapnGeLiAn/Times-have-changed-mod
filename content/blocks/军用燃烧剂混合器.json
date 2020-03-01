@@ -1,0 +1,34 @@
+{
+	"type": "GenericCrafter",
+	"name": "军用燃烧剂混合器",//名字
+	"description": "搞最易燃的东西",//介绍
+	"itemCapacity": 20,//物品容量
+	"size": 4,//占地边长支持1~9对应贴图1x1=32x32像素.
+	"hasPower": true,//是否需要能量true为需要,false为不需要.
+	"hasLiquids": true,//是否需要液体true为需要,false为不需要.
+	"hasItems": true,//是否需要物品true为需要,false为不需要.
+	"craftTime": 60,//工作时间,这里的是60:1
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 5,//使用能量,比例1:60
+		"items": {
+			"items": [
+				{ "item": "blast-compound", "amount": 5 }
+				{ "item": "titanium", "amount": 5 }
+			]
+},//生产消耗矿物,第一个""之间写矿物第二个:后写数量.
+		"liquid": {
+			"liquid": "oil",
+			"amount": 0.3
+		}//生产消耗液体,第一个""之间写液体第二个:后写数量
+	},//生产消耗
+  	"liquidCapacity": 20,
+	"outputLiquid": {"liquid": "军用燃烧剂", "amount": 10},//输出液体
+	"requirements": [
+		{ "item": "铁板", "amount": 50 }
+	],//建造消耗,第一个""之间写矿物,第二个:后写数量.
+	"category": "crafting",//游戏界面分类
+	"research": "铁板压缩机"//科技树前一项
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

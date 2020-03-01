@@ -1,0 +1,43 @@
+{
+     "type":"ItemTurret",
+     "name":"绿宝石水花", //名字
+     "description":"卡——Q——因!", //介绍
+     "health":250,//生命
+     "size":2,//占地边长支持1~9对应贴图1x1=32x32像素.
+     "shotWidth":2,//炮口间距双管使用与体积对应是2:1
+     "targetAir":true,//是否攻击空中true是,false否
+     "targetGround":true,//是否攻击地面true是,false否
+     "rotatespeed": 50,//旋转速度
+     "cooldown":50,//冷却
+     "recoil": 0,//后坐力
+     "restitution":50,//回复原位速度
+     "shots": 20,//一次打几发
+     "inaccuracy": 5,//误差
+     "maxAmmo":90,//弹仓默认30
+     "reload":30,//装弹时间比例60:1
+     "range":100,//范围
+     "shootSound": "绿色宝石水花"
+     "ammo": {
+       "绿宝石": {
+       "splashDamageRadius":20,//溅射范围
+	   "splashDamage":100,//范围伤害
+	   "speed": 100,//子弹飞行速度
+		"damage": 50,//伤害
+		"hitSize": 4,//碰撞箱默认4
+		"pierce": 0,//是否穿透
+		"reloadMultiplier": 50,//装弹速率
+		"recoil": 0, //额外后坐力
+		"knockback": 10,//被击中单位降速
+		"bulletWidth": 5,//子弹宽
+		"bulletHeight": 3,//子弹高
+		"homingPower":0,//追踪力度0不追1
+		"lifetime":600,//子弹存在时间比例60:1
+		"ammoMultiplier": 10//子弹乘数就是一个物品打几发
+  }//矿物名
+},//子弹
+      "requirements": [
+		{ "item": "绿宝石", "amount":300 }
+	],//建造消耗,第一个""之间写矿物,第二个:后写数量
+	"category": "turret",
+	"research": "塑料炮"//科技树前一项
+}

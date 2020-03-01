@@ -1,6 +1,6 @@
 {
      "type":"ItemTurret",
-     "name": "Single-engine armor-piercing cannon",
+     "name": "单发穿甲炮",
      "description":"发射一发穿甲弹，空地都能打，前期必备", //介绍
      "health":250,//生命
      "size":2,//占地边长支持1~9对应贴图1x1=32x32像素.
@@ -15,7 +15,7 @@
      "inaccuracy":3 ,//误差
      "maxAmmo":300,//弹仓默认30
      "reload":60,//装弹时间比例60:1
-     "range":27,//范围
+     "range":105,//范围
      "ammo": {
        "铁": {
 	   "splashDamage":3,//范围伤害
