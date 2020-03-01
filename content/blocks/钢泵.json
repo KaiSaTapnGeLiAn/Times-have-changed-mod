@@ -1,19 +1,25 @@
 {
     "type": "Pump",
-    "name": "钢泵",//名字
-    "description": "钢水泵，比热能更牛逼",//介绍
-    "size":3 ,//占地边长支持1~9对应贴图1x1=32x32像素.
-    "health":250 ,//生命值
-	"liquidCapacity":200 ,//液体容量
-    "hasLiquids": true,//默认就好
-    "pumpAmount":2.5 ,//液体输出量,比例1:60
+    "name": "钢泵",
+    "description": "钢水泵，比热能更牛逼",
+    "size": 3,
+    "health": 250,
+    "liquidCapacity": 200,
+    "hasLiquids": true,
+    "pumpAmount": 2.5,
     "consumes": {
-    "power":5
-},
+        "power": 5
+    },
     "requirements": [
-		{"item": "钢", "amount":50 },
-		{"item": "钢板", "amount":50 },
-	],//建造消耗,第一个""之间写矿物,第二个:后写数量
-	"category": "liquid",//游戏界面分类
-	"research": "铁泵"
+        {
+            "item": "钢",
+            "amount": 50
+        },
+        {
+            "item": "钢板",
+            "amount": 50
+        }
+    ],
+    "category": "liquid",
+    "research": "铁泵"
 }

@@ -1,6 +1,6 @@
 {
-	"type": "material"
-	"name": "金"//矿物名称
-	"description": "可以做成淦，骂人"//矿物描述
-	"color": "eeee00"//颜色查看rgb表,使用时如这样#000000那只要000000,每两位分别代表R G B.
+	"type": "material",
+	"name": "金",
+	"description": "可以做成淦，骂人",
+	"color": "eeee00"
 }

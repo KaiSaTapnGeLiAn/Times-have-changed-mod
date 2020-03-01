@@ -1,24 +1,27 @@
 {
     "type": "ImpactReactor",
-    "name": "水力发电机",//名字
-    "description": "用水发电，倒水需要点能量",//介绍
-    "size":2 ,//占地边长支持1~9对应贴图1x1=32x32像素.
-    "health":250 ,//生命
-	"liquidCapacity":100 ,//液体容量,要大于输出量
-    "hasLiquids": true,//默认就好
-    "liquidBoostIntensity":0,//液体加成
-    "powerProduction":5 ,//输出能量格式比如1.0,比例1:60
+    "name": "水力发电机",
+    "description": "用水发电，倒水需要点能量",
+    "size": 2,
+    "health": 250,
+    "liquidCapacity": 100,
+    "hasLiquids": true,
+    "liquidBoostIntensity": 0,
+    "powerProduction": 5,
     "consumes": {
-    "power":0.3,//启动消耗能量,比例1:60
-           "liquid":{
-			"liquid":"water",//消耗液体
-			"amount":0.4
-			"booster":true
-		}
-	},//工作消耗
+        "power": 0.3,
+        "liquid": {
+            "liquid": "water",
+            "amount": 0.4,
+            "booster": true
+        }
+    },
     "requirements": [
-		{"item": "铁板", "amount":20 }
-	],//建造消耗,第一个""之间写矿物,第二个:后写数量
-	"category": "power",//游戏界面分类
-	"research": "火药发电机"//科技树前一项
+        {
+            "item": "铁板",
+            "amount": 20
+        }
+    ],
+    "category": "power",
+    "research": "火药发电机"
 }

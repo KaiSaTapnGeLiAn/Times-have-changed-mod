@@ -1,6 +1,6 @@
 {
-	"type": "material"
-	"name": "浪钍钢合金"//矿物名称
-	"description": "最硬!"//矿物描述
-	"color": "f0fff0"//颜色查看rgb表,使用时如这样#000000那只要000000,每两位分别代表R G B.
+	"type": "material",
+	"name": "浪钍钢合金",
+	"description": "最硬!",
+	"color": "f0fff0"
 }

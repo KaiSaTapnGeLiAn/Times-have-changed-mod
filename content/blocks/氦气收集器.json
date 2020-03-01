@@ -1,32 +1,50 @@
 {
 	"type": "GenericCrafter",
-	"name": "氦气收集器",//名字
-	"description": "用芯片自动控制钢制叶片以此来吸收氦气，不过叶片需要水润滑",//介绍
-	"itemCapacity":20 ,//物品容量
-	"size":2 ,//占地边长支持1~9对应贴图1x1=32x32像素.
-	"hasPower": true,//是否需要能量true为需要,false为不需要.
-	"hasLiquids": true,//是否需要液体true为需要,false为不需要.
-	"hasItems": false,//是否需要物品true为需要,false为不需要.
-	"craftTime":30 ,//工作时间,这里的是60:1
+	"name": "氦气收集器",
+	"description": "用芯片自动控制钢制叶片以此来吸收氦气，不过叶片需要水润滑",
+	"itemCapacity": 20,
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": false,
+	"craftTime": 30,
 	"updateEffect": "smeltsmoke",
 	"consumes": {
-		"power":5 ,//使用能量,比例1:60
+		"power": 5,
 		"liquid": {
 			"liquid": "water",
-			"amount":5 
-		}//生产消耗液体,第一个""之间写液体第二个:后写数量
-	},//生产消耗
-  	"liquidCapacity":20
-	"outputLiquid": {"liquid": "氦气", "amount":7.5 },//输出液体
+			"amount": 5
+		}
+	},
+	"liquidCapacity": 20,
+	"outputLiquid": {
+		"liquid": "氦气",
+		"amount": 7.5
+	},
 	"requirements": [
-		{ "item": "塑料", "amount":50  }
-		{ "item": "铁板", "amount":100  }
-		{ "item": "钢", "amount":50  }
-		{ "item": "铁", "amount":200  }
-		{ "item": "芯片", "amount":5  }
-	],//建造消耗,第一个""之间写矿物,第二个:后写数量.
-	"category": "crafting",//游戏界面分类
-	"research": "塑料厂",//科技树前一项
+		{
+			"item": "塑料",
+			"amount": 50
+		},
+		{
+			"item": "铁板",
+			"amount": 100
+		},
+		{
+			"item": "钢",
+			"amount": 50
+		},
+		{
+			"item": "铁",
+			"amount": 200
+		},
+		{
+			"item": "芯片",
+			"amount": 5
+		}
+	],
+	"category": "crafting",
+	"research": "塑料厂",
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5
 }

@@ -1,28 +1,37 @@
 {
-	"type": "GenericSmelter"
-	"name": "钨丝厂",//工厂名称
-	"description": "把钨切成丝，用以制造钨丝灯等。",//工厂介绍
-	"health":150 ,//生命
-	"itemCapacity":20 ,//物品容量,要大于生产输出和消耗数量.
-	"outputItem": {"item": "钨丝","amount":2 },//输出物品,第一个""之间写矿物第二个:后面写数量.
-	"size":2 ,
-	"hasPower":true ,//是否需要能量true为需要,false为不需要.
-	"hasItems":true ,//是否需要物品true为需要,false为不需要.
-	"craftTime":30 ,//工作时间,这里的是60:1
+	"type": "GenericSmelter",
+	"name": "钨丝厂",
+	"description": "把钨切成丝，用以制造钨丝灯等。",
+	"health": 150,
+	"itemCapacity": 20,
+	"outputItem": {
+		"item": "钨丝",
+		"amount": 2
+	},
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 30,
 	"updateEffect": "smeltsmoke",
 	"consumes": {
-		"power":1 ,//使用能量,比例1:60
+		"power": 1,
 		"items": {
 			"items": [
-				{ "item": "钨", "amount":1  }
-			]//生产消耗矿物,第一个""之间写矿物第二个:后写数量.
+				{
+					"item": "钨",
+					"amount": 1
+				}
+			]
 		}
-	},//生产所消耗的东西.
+	},
 	"requirements": [
-		{ "item": "铁板", "amount":100  }
-	],//建造消耗,第一个""之间写矿物,第二个:后写数量
-	"category": "crafting",//游戏界面分类,crafting是工厂分类
-	"research": "铁板压缩机",//科技树前一物品
+		{
+			"item": "铁板",
+			"amount": 100
+		}
+	],
+	"category": "crafting",
+	"research": "铁板压缩机",
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5
 }

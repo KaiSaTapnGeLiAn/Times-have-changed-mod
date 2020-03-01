@@ -20,13 +20,13 @@
 				{
 					"item": "lead",
 					"amount": 3
-				}
+				},
 				{
 					"item": "copper",
 					"amount": 4
 				}
 			]
-		},
+		}
 	},
 	"requirements": [
 		{
@@ -40,7 +40,7 @@
 		{
 			"item": "lead",
 			"amount": 120
-		},
+		}
 	],
 	"category": "crafting",
 	"research": "pyratite-mixer",

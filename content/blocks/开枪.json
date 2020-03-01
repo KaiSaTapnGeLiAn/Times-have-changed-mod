@@ -1,12 +1,15 @@
 {
-	"name": "开枪",//名字
-	"description": "这是个表情包",//介绍
+	"name": "开枪",
+	"description": "这是个表情包",
 	"type": "Wall",
-	"health": 250,//生命
-	"size": 2,//占地边长支持1~9对应贴图1x1=32x32像素.
+	"health": 250,
+	"size": 2,
 	"requirements": [
-		{ "item": "copper", "amount": 1}
-	],//建造消耗,第一个""之间写矿物,第二个:后写数量
+		{
+			"item": "copper",
+			"amount": 1
+		}
+	],
 	"category": "defense",
-	"research": "停止思考"//科技树前一项
+	"research": "停止思考"
 }

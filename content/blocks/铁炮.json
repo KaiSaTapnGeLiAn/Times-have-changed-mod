@@ -1,43 +1,45 @@
 {
   "type": "ItemTurret",
-  "name": "铁炮", //名字
-  "description": "到处都是无用的铁，真是一团糟（对示例模组的致敬）", //介绍
-  "health": 300, //生命
-  "size": 2, //占地边长支持1~9对应贴图1x1=32x32像素.
-  "shotWidth": 1, //炮口间距双管使用与体积对应是2:1
-  "targetAir": true, //是否攻击空中true是,false否
-  "targetGround": true, //是否攻击地面true是,false否
-  "cooldown": 20, //冷却
-  "recoil": 5, //后坐力
-  "restitution": 50, //回复原位速度
-  "shots": 5, //一次打几发
-  "inaccuracy": "0.4", //误差
-  "maxAmmo": 30, //弹仓默认30
-  "reload": 30, //装弹时间比例60:1
-  "range": 25, //范围
+  "name": "铁炮",
+  "description": "到处都是无用的铁，真是一团糟（对示例模组的致敬）",
+  "health": 300,
+  "size": 2,
+  "shotWidth": 1,
+  "targetAir": true,
+  "targetGround": true,
+  "cooldown": 20,
+  "recoil": 5,
+  "restitution": 50,
+  "shots": 5,
+  "inaccuracy": "0.4",
+  "maxAmmo": 30,
+  "reload": 30,
+  "range": 25,
   "ammo": {
     "铁": {
-      "splashDamageRadius": 5, //溅射范围
-      "splashDamage": 10, //范围伤害
-      "speed": 50, //子弹飞行速度
-      "damage": 30, //伤害
-      "hitSize": 4, //碰撞箱默认4
-      "pierce": 0, //是否穿透
-      "reloadMultiplier": 1, //装弹速率
-      "recoil": 0, //额外后坐力
-      "knockback": 2, //被击中单位降速
-      "bulletWidth": 3, //子弹宽
-      "bulletHeight": 5, //子弹高
-      "homingPower": 0, //追踪力度0不追1追
-      "homingRange": 0, //追踪范围
-      "lifetime": 540, //子弹存在时间比例60:1
-      "ammoMultiplier": 2 //子弹乘数就是一个物品打几发
-    } //矿物名
-  }, //子弹
-  "requirements": [{
-    "item": "铁板",
-    "amount": 50
-  }], //建造消耗,第一个""之间写矿物,第二个:后写数量
+      "splashDamageRadius": 5,
+      "splashDamage": 10,
+      "speed": 50,
+      "damage": 30,
+      "hitSize": 4,
+      "pierce": 0,
+      "reloadMultiplier": 1,
+      "recoil": 0,
+      "knockback": 2,
+      "bulletWidth": 3,
+      "bulletHeight": 5,
+      "homingPower": 0,
+      "homingRange": 0,
+      "lifetime": 540,
+      "ammoMultiplier": 2
+    }
+  },
+  "requirements": [
+    {
+      "item": "铁板",
+      "amount": 50
+    }
+  ],
   "category": "turret",
-  "research": "duo" //科技树前一项
+  "research": "duo"
 }

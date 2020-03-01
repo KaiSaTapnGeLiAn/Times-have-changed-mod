@@ -1,23 +1,29 @@
 {
-	"name": "铁制小钻头",//名字
-	"description": "铁做的钻头，啥都能采，用大量的水降温可提速",//介绍
+	"name": "铁制小钻头",
+	"description": "铁做的钻头，啥都能采，用大量的水降温可提速",
 	"type": "Drill",
-	"size":1 ,//占地边长支持1~9对应贴图1x1=32x32像素.
-	"health":500 ,//生命
-	"tier":5 ,//挖矿等级
-	"drillTime":30 ,//挖一个矿所用时间比例60:1
+	"size": 1,
+	"health": 500,
+	"tier": 5,
+	"drillTime": 30,
 	"consumes": {
-    "power":7 ,//使用能量1:60格式1.0
+		"power": 7,
 		"liquid": {
-			"liquid": "water", 
-			"amount": 2.0
-			"optional":true }
-	},//加成物品
+			"liquid": "water",
+			"amount": 2.0,
+			"optional": true
+		}
+	},
 	"requirements": [
-		{"item": "铁", "amount":45 }
-		{"item": "铁板", "amount":45 }
-	],//建造消耗,第一个""之间写矿物,第二个:后写数量
-	"category": "production",//游戏界面分类
-	"research":"铁板压缩机"//科技树前一项
+		{
+			"item": "铁",
+			"amount": 45
+		},
+		{
+			"item": "铁板",
+			"amount": 45
+		}
+	],
+	"category": "production",
+	"research": "铁板压缩机"
 }
-

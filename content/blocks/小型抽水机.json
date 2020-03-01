@@ -1,27 +1,33 @@
 {
 	"type": "GenericCrafter",
-	"name": "小型抽水机", //名字
+	"name": "小型抽水机",
 	"description": "浓缩才是精华",
-	"size": 1, //占地边长支持1~9对应贴图1x1=32x32像素.
-	"hasPower": true, //是否需要能量true为需要,false为不需要.
-	"hasLiquids": false, //是否需要液体true为需要,false为不需要.
-	"hasItems": false, //是否需要物品true为需要,false为不需要.
-	"craftTime": 60, //工作时间,这里的是60:1
+	"size": 1,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": false,
+	"craftTime": 60,
 	"updateEffect": "smeltsmoke",
 	"consumes": {
-		"power": 5, //使用能量,比例1:60
-	}, //生产消耗
+		"power": 5
+	},
 	"liquidCapacity": 20,
 	"outputLiquid": {
 		"liquid": "water",
 		"amount": 4.3
-	}, //输出液体
+	},
 	"requirements": [
-		{"item": "copper","amount": 30}
-		{"item": "钨丝","amount": 30}
-	], //建造消耗,第一个""之间写矿物,第二个:后写数量.
-	"category": "crafting", //游戏界面分类
-	"research": "钢厂", //科技树前一项
+		{
+			"item": "copper",
+			"amount": 30
+		},
+		{
+			"item": "钨丝",
+			"amount": 30
+		}
+	],
+	"category": "crafting",
+	"research": "钢厂",
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5
 }

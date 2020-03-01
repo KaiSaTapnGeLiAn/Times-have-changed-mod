@@ -1,19 +1,25 @@
 {
     "type": "Pump",
-    "name": "铁泵",//名字
-    "description": "铁水泵，介于回旋泵和热能泵两者中间",//介绍
-    "size":3 ,//占地边长支持1~9对应贴图1x1=32x32像素.
-    "health":250 ,//生命值
-	"liquidCapacity":200 ,//液体容量
-    "hasLiquids": true,//默认就好
-    "pumpAmount":1.1 ,//液体输出量,比例1:60
+    "name": "铁泵",
+    "description": "铁水泵，介于回旋泵和热能泵两者中间",
+    "size": 3,
+    "health": 250,
+    "liquidCapacity": 200,
+    "hasLiquids": true,
+    "pumpAmount": 1.1,
     "consumes": {
-    "power":3//工作能量消耗,比例1:60
-	},
+        "power": 3
+    },
     "requirements": [
-		{"item": "钢", "amount":50 },
-		{"item": "钢板", "amount":50 },
-	],//建造消耗,第一个""之间写矿物,第二个:后写数量
-	"category": "liquid",//游戏界面分类
-	"research": "铁板压缩机"
+        {
+            "item": "钢",
+            "amount": 50
+        },
+        {
+            "item": "钢板",
+            "amount": 50
+        }
+    ],
+    "category": "liquid",
+    "research": "铁板压缩机"
 }

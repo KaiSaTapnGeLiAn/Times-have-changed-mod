@@ -3,7 +3,10 @@
 	"name": "树脂冶炼厂",
 	"description": "融化塑料制成树脂",
 	"liquidCapacity": 50,
-	"outputLiquid": {"liquid": "树脂", "amount": 5.0},
+	"outputLiquid": {
+		"liquid": "树脂",
+		"amount": 5.0
+	},
 	"size": 1,
 	"hasPower": true,
 	"hasLiquids": true,
@@ -14,10 +17,22 @@
 		"item": "plastanium"
 	},
 	"requirements": [
-		{ "item": "lead", "amount": 120 },
-		{ "item": "thorium", "amount": 40 },
-		{ "item": "silicon", "amount": 40}
-		{ "item": "silicon", "amount": 40}
+		{
+			"item": "lead",
+			"amount": 120
+		},
+		{
+			"item": "thorium",
+			"amount": 40
+		},
+		{
+			"item": "silicon",
+			"amount": 40
+		},
+		{
+			"item": "silicon",
+			"amount": 40
+		}
 	],
 	"category": "crafting",
 	"idleSound": "respawning",

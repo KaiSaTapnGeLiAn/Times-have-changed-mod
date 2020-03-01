@@ -1,6 +1,6 @@
 {
-	"type": "resource"
-	"name": "菠菜"//矿物名称
-	"description": "菠菜!贱卖!菠菜!菠菜!"//矿物描述
-	"color": "c0ff3e"//颜色查看rgb表,使用时如这样#000000那只要000000,每两位分别代表R G B.
+	"type": "resource",
+	"name": "菠菜",
+	"description": "菠菜!贱卖!菠菜!菠菜!",
+	"color": "c0ff3e"
 }

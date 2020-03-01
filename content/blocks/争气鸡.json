@@ -6,7 +6,6 @@
 	"health": 300,
 	"liquidCapacity": 50,
 	"hasLiquids": true,
-	
 	"powerProduction": 20,
 	"consumes": {
 		"power": 5,
@@ -15,7 +14,7 @@
 			"amount": 0.5,
 			"booster": true
 		}
-	}, 
+	},
 	"requirements": [
 		{
 			"item": "铁板",
@@ -33,7 +32,7 @@
 			"item": "titanium",
 			"amount": 30
 		}
-	], 
-	"category": "power", 
-	"research": "duo" 
+	],
+	"category": "power",
+	"research": "duo"
 }

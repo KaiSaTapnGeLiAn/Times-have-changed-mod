@@ -1,31 +1,49 @@
 {
-	"type": "GenericSmelter"
-	"name": "浪钛合金厂",//工厂名称
-	"description": "把巨浪合金，钍，钢融合到一起，制作出最强的物质",//工厂介绍
-	"health":200 ,//生命
-	"itemCapacity":50 ,//物品容量,要大于生产输出和消耗数量.
-	"outputItem": {"item": "浪钍钢合金","amount":1 },//输出物品,第一个""之间写矿物第二个:后面写数量.
-	"size":2 ,//占地边长支持1~9对应贴图1x1=32x32像素.
-	"hasPower":true ,//是否需要能量true为需要,false为不需要.
-	"hasItems":true ,//是否需要物品true为需要,false为不需要.
-	"craftTime":120 ,//工作时间,这里的是60:1
+	"type": "GenericSmelter",
+	"name": "浪钛合金厂",
+	"description": "把巨浪合金，钍，钢融合到一起，制作出最强的物质",
+	"health": 200,
+	"itemCapacity": 50,
+	"outputItem": {
+		"item": "浪钍钢合金",
+		"amount": 1
+	},
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 120,
 	"updateEffect": "smeltsmoke",
 	"consumes": {
-		"power":7 ,//使用能量,比例1:60
+		"power": 7,
 		"items": {
 			"items": [
-				{ "item": "surge-alloy", "amount":2  }
-				{ "item": "钢", "amount":10  }
-				{ "item": "thorium", "amount":5  }
-			]//生产消耗矿物,第一个""之间写矿物第二个:后写数量.
+				{
+					"item": "surge-alloy",
+					"amount": 2
+				},
+				{
+					"item": "钢",
+					"amount": 10
+				},
+				{
+					"item": "thorium",
+					"amount": 5
+				}
+			]
 		}
-	},//生产所消耗的东西.
+	},
 	"requirements": [
-		{ "item": "钢", "amount":500  }
-		{ "item": "surge-alloy", "amount":50  }
-	],//建造消耗,第一个""之间写矿物,第二个:后写数量
-	"category": "crafting",//游戏界面分类,crafting是工厂分类
-	"research": "钢墙",//科技树前一物品
+		{
+			"item": "钢",
+			"amount": 500
+		},
+		{
+			"item": "surge-alloy",
+			"amount": 50
+		}
+	],
+	"category": "crafting",
+	"research": "钢墙",
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5
 }

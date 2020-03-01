@@ -1,45 +1,54 @@
 {
-     "type":"ItemTurret",
-     "name": "单发穿甲炮",
-     "description":"发射一发穿甲弹，空地都能打，前期必备", //介绍
-     "health":250,//生命
-     "size":2,//占地边长支持1~9对应贴图1x1=32x32像素.
-     "shotWidth":2,//炮口间距双管使用与体积对应是2:1
-     "targetAir":true,//是否攻击空中true是,false否
-     "targetGround":true,//是否攻击地面true是,false否
-     "rotatespeed": 5,//旋转速度
-     "cooldown":2,//冷却
-     "recoil":5 ,//后坐力
-     "restitution":50,//回复原位速度
-     "shots":1 ,//一次打几发
-     "inaccuracy":3 ,//误差
-     "maxAmmo":300,//弹仓默认30
-     "reload":60,//装弹时间比例60:1
-     "range":105,//范围
-     "ammo": {
-       "铁": {
-	   "splashDamage":3,//范围伤害
-	   "speed":50 ,//子弹飞行速度
-		"damage":45 ,//伤害
-		"hitSize":4 ,//碰撞箱默认4
-		"pierce":true ,//是否穿透
-		"reloadMultiplier":5 ,//装弹速率
-		"recoil":3 , //额外后坐力
-		"knockback":0 ,//被击中单位降速
-		"bulletWidth":30 ,//子弹宽
-		"bulletHeight":50 ,//子弹高
-		"homingPower":0,//追踪力度0不追1追
-		"homingRange":45,//追踪范围
-		"lifetime":540,
-		"incendChance": 0,//产生火焰概率
-		"ammoMultiplier": 3//子弹乘数就是一个物品打几发
-  }//矿物名
-},//子弹
-      "requirements": [
-		{ "item": "铁板", "amount": 50}
-		{ "item": "copper", "amount":35 }
-		{ "item": "lead", "amount": 35}
-	],//建造消耗,第一个""之间写矿物,第二个:后写数量
-	"category": "turret",
-	"research": "大钢厂"//科技树前一项
+  "type": "ItemTurret",
+  "name": "单发穿甲炮",
+  "description": "发射一发穿甲弹，空地都能打，前期必备",
+  "health": 250,
+  "size": 2,
+  "shotWidth": 2,
+  "targetAir": true,
+  "targetGround": true,
+  "rotatespeed": 5,
+  "cooldown": 2,
+  "recoil": 5,
+  "restitution": 50,
+  "shots": 1,
+  "inaccuracy": 3,
+  "maxAmmo": 300,
+  "reload": 60,
+  "range": 105,
+  "ammo": {
+    "铁": {
+      "splashDamage": 3,
+      "speed": 50,
+      "damage": 45,
+      "hitSize": 4,
+      "pierce": true,
+      "reloadMultiplier": 5,
+      "recoil": 3,
+      "knockback": 0,
+      "bulletWidth": 30,
+      "bulletHeight": 50,
+      "homingPower": 0,
+      "homingRange": 45,
+      "lifetime": 540,
+      "incendChance": 0,
+      "ammoMultiplier": 3
+    }
+  },
+  "requirements": [
+    {
+      "item": "铁板",
+      "amount": 50
+    },
+    {
+      "item": "copper",
+      "amount": 35
+    },
+    {
+      "item": "lead",
+      "amount": 35
+    }
+  ],
+  "category": "turret",
+  "research": "大钢厂"
 }

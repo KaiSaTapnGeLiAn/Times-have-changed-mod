@@ -1,13 +1,15 @@
 {
-	"name": "钨墙",//名字
-	"description": "钨做的墙，中等",//介绍
+	"name": "钨墙",
+	"description": "钨做的墙，中等",
 	"type": "Wall",
-	"health":3300 ,//生命
-	"size":2 ,//占地边长支持1~9对应贴图1x1=32x32像素.
+	"health": 3300,
+	"size": 2,
 	"requirements": [
-		{ "item": "钨", "amount":24 }
-	],//建造消耗,第一个""之间写矿物,第二个:后写数量
+		{
+			"item": "钨",
+			"amount": 24
+		}
+	],
 	"category": "defense",
-	"research": "铁墙"//科技树前一项
+	"research": "铁墙"
 }
-

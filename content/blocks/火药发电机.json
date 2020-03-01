@@ -6,7 +6,6 @@
 	"health": 50,
 	"liquidCapacity": 10,
 	"hasLiquids": true,
-	
 	"powerProduction": 14,
 	"consumes": {
 		"power": 1,

@@ -1,10 +1,10 @@
 {
-	"name": "树脂",
-	"description": "搞橡胶的东西",
-	"temperature": 0.5,
+    "name": "树脂",
+    "description": "搞橡胶的东西",
+    "temperature": 0.5,
     "viscosity": 1,
     "effect": "tarred",
     "color": "FFFFCC",
-	"barColor": "FFFFCC",
+    "barColor": "FFFFCC",
     "flammability": 0
 }
